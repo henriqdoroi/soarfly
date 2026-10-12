@@ -1,0 +1,628 @@
+/* ==========================================================================
+   Página nova — escada / 3 metros (R$ 127,90, de R$ 399,90). Gerada por
+   build/gerar_configs_produtos_novos.py a partir da planilha de fatos dos produtos novos (2026-10-02).
+   Construída por build_variantes.py. Checkout P4K: tshop-escada-3m. NÃO editar à mão: rode o gerador.
+   ========================================================================== */
+window.SITE_CONFIG = {
+  "loja": {
+    "nome": "Ofertas Tshop",
+    "sigla": "TS",
+    "logo": "/assets/img/logo-loja.png",
+    "corAvatar": "#fe2c55",
+    "whatsapp": "",
+    "emailContato": "",
+    "nomeTitular": "LOJA DA FERRAMENTARIA LTDA",
+    "cnpjOuCpfTitular": "28.632.062/0001-35",
+    "cidadeUf": ""
+  },
+  "produto": {
+    "slug": "escada",
+    "referencia": "ferramenta.html",
+    "vendedorNaReferencia": "SOARFLY Tools BR",
+    "nome": "Escada Telescópica Inox Antiderrapante Retrátil — 3 metros",
+    "nomeCheckout": "Escada Telescópica Inox — 3 metros",
+    "descricaoCurta": "Escada telescópica de inox, antiderrapante e retrátil, com travas independentes e cinta de transporte. Modelo de 3 metros.",
+    "tituloAba": "Escada Telescópica Inox 3 m — R$ 127,90",
+    "rotuloVariante": "Tamanho",
+    "variante": "3 metros",
+    "quantidadePorEmbalagem": "1",
+    "manterDescricaoOriginal": false,
+    "descricaoNova": {
+      "titulo": "Escada Telescópica Inox Antiderrapante Retrátil — 3 metros",
+      "resumo": "A Escada Telescópica Inox Antiderrapante foi desenvolvida para quem precisa de alcance, estabilidade e praticidade em um único equipamento. Seu sistema telescópico permite escolher o tamanho ideal para cada tarefa, enquanto a estrutura resistente, as travas independentes e os pés antiderrapantes ajudam a manter o uso firme e seguro. Quando fechada, ocupa pouco espaço e pode ser transportada e armazenada com facilidade. Este é o modelo de 3 metros.",
+      "destaques": [
+        "Estrutura telescópica em inox: alcance ajustável com retração prática para transporte e armazenamento.",
+        "Travas independentes: cada degrau pode ser ajustado e travado para adaptar a escada à tarefa.",
+        "Base antiderrapante: pés emborrachados para maior aderência em diferentes pisos.",
+        "Degraus reforçados: superfície firme para apoiar os pés durante o trabalho.",
+        "Cinta de transporte: mantém a escada compactada e facilita o deslocamento.",
+        "Três tamanhos disponíveis (3, 5 e 7 metros): esta página é o modelo de 3 metros."
+      ],
+      "embalagem": [
+        "01 Escada Telescópica Inox de 3 metros",
+        "01 Cinta de fixação para armazenamento",
+        "Pés de borracha antiderrapante reforçados",
+        "Manual de uso seguro"
+      ],
+      "ficha": [
+        "Tamanho deste modelo: 3 metros",
+        "Material: Inox e alumínio reforçado",
+        "Carga Máxima: 150 kg",
+        "Mecanismo: Retrátil Telescópico com Travas Individuais",
+        "Segurança: Base emborrachada e degraus frisados",
+        "Armazenamento: Compactável para transporte e armazenamento",
+        "Tamanhos disponíveis na loja: 3, 5 e 7 metros"
+      ]
+    },
+    "galeria": 9,
+    "pastaGaleria": "/assets/img/produtos/escada",
+    "pastaDescricao": "/assets/img/produtos/escada",
+    "imagensDescricao": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variantes": {
+      "rotulo": "Tamanho",
+      "itens": [
+        {
+          "rotulo": "3 metros",
+          "rota": "/escada",
+          "preco": 127.9
+        },
+        {
+          "rotulo": "5 metros",
+          "rota": "/escada-5m",
+          "preco": 159.9
+        },
+        {
+          "rotulo": "7 metros",
+          "rota": "/escada-7m",
+          "preco": 177.9
+        }
+      ]
+    }
+  },
+  "preco": {
+    "venda": 127.9,
+    "original": 399.9,
+    "frete": 26.6,
+    "parcelas": 9,
+    "mostrarParcelas": false,
+    "quantidadeMaxima": 1
+  },
+  "entrega": {
+    "diasMinimo": 1,
+    "diasMaximo": 3
+  },
+  "frete": {
+    "opcoes": [
+      {
+        "id": "gratis",
+        "nome": "Frete grátis",
+        "transportadora": "Loggi",
+        "prazo_min": 4,
+        "prazo_max": 8,
+        "dias_uteis": true,
+        "preco_cents": 0
+      },
+      {
+        "id": "rapido",
+        "nome": "Entrega rápida",
+        "transportadora": "",
+        "prazo_min": 3,
+        "prazo_max": 6,
+        "dias_uteis": true,
+        "preco_cents": 2790
+      },
+      {
+        "id": "expresso",
+        "nome": "Entrega expressa",
+        "transportadora": "",
+        "prazo_min": 2,
+        "prazo_max": 5,
+        "dias_uteis": true,
+        "preco_cents": 4790
+      }
+    ]
+  },
+  "complementos": {
+    "_nota": "Order bumps e oferta depois da compra (dono, 2026-10-03). ids = itens do checkout P4K (dashboard.upsells), criados com enabled=false: enquanto nao forem ligados no P4K o servidor ignora o item e nao cobra. Registro: checkout-complementos/itens-p4k-produtos-novos.json",
+    "titulo": "Leve junto com desconto",
+    "subtitulo": "Só nesta compra. Toque para adicionar ao pedido.",
+    "itens": [
+      {
+        "chave": "medir",
+        "nome": "Kit Medir, Marcar e Alinhar",
+        "texto": "Trena de 5 m, nível de bolha e lápis de carpinteiro.",
+        "preco_cents": 1990,
+        "de_cents": 6590,
+        "imagem": "/assets/img/complementos/medir-d368440367.jpg",
+        "ids": {
+          "tshop-escada-3m": "18c6ce6b-2b6d-4d03-9fe1-4b43264d477e"
+        }
+      },
+      {
+        "chave": "bolsa",
+        "nome": "Bolsa porta-ferramentas de cintura",
+        "texto": "Leva as ferramentas na cintura e deixa as duas mãos livres na escada.",
+        "preco_cents": 1990,
+        "de_cents": 6590,
+        "imagem": "/assets/img/complementos/bolsa-a799f5e3e6.jpg",
+        "ids": {
+          "tshop-escada-3m": "f399710c-8154-417c-a06e-2748f8b4e023"
+        }
+      },
+      {
+        "chave": "fixacao",
+        "nome": "Kit Fixação Pronta",
+        "texto": "Estojo com buchas e parafusos de vários tamanhos.",
+        "preco_cents": 1990,
+        "de_cents": 6590,
+        "imagem": "/assets/img/complementos/fixacao-7b93899e18.jpg",
+        "ids": {
+          "tshop-escada-3m": "e2ee0926-e49f-4325-a876-abfae44befcd"
+        }
+      },
+      {
+        "chave": "protecao",
+        "nome": "Kit proteção: óculos, luvas e abafador",
+        "texto": "Para trabalhar sem risco nos olhos, mãos e ouvidos.",
+        "preco_cents": 1990,
+        "de_cents": 6590,
+        "imagem": "/assets/img/complementos/protecao-b332cbb03d.jpg",
+        "ids": {
+          "tshop-escada-3m": "7428b4b7-4c8b-4992-9fc6-532856bd5014"
+        }
+      }
+    ]
+  },
+  "posCompra": {
+    "tshop-escada-3m": {
+      "etiqueta": "OFERTA SÓ PARA QUEM ACABOU DE COMPRAR",
+      "passos": {
+        "u1": {
+          "id": "8b793ef0-1baf-4ade-bb2a-bce57c9163ef",
+          "chave": "parafusadeira",
+          "nome": "Parafusadeira Furadeira de Impacto 21V The Black Tools + 136 peças",
+          "titulo": "Leve a Parafusadeira 21V + 136 peças por R$ 69,90",
+          "texto": "Parafusadeira e furadeira de impacto 21V com kit completo de 136 peças e maleta.",
+          "preco_cents": 6990,
+          "de_cents": 39000,
+          "imagem": "/assets/img/complementos/parafusadeira-f43533f941.jpg",
+          "aceitar": "Quero a parafusadeira",
+          "recusar": "Não, obrigado"
+        },
+        "d1": {
+          "id": "068fa395-d491-498a-8173-834de735f545",
+          "chave": "fixacao-medir",
+          "nome": "Kit Fixação Pronta + Kit Medir, Marcar e Alinhar",
+          "titulo": "Leve o Kit Fixação + Kit Medir por R$ 29,90",
+          "texto": "Estojo com buchas e parafusos de vários tamanhos + trena de 5 m, nível de bolha e lápis de carpinteiro.",
+          "preco_cents": 2990,
+          "de_cents": 9990,
+          "imagem": "/assets/img/complementos/fixacao-medir-4d9fc593b8.jpg",
+          "aceitar": "Quero os 2 kits",
+          "recusar": "Não, obrigado"
+        },
+        "u2": {
+          "id": "7652b939-0de4-47f0-a055-072dba336c81",
+          "chave": "kit4",
+          "nome": "Kit Ferramentas 4 em 1 Soarfly 48Vf",
+          "titulo": "Leve o Kit Ferramentas 4 em 1 por R$ 79,90",
+          "texto": "4 ferramentas a bateria (48Vf), 2 baterias, carregador e maleta, tudo no mesmo kit.",
+          "preco_cents": 7990,
+          "de_cents": 32633,
+          "imagem": "/assets/img/galeria-1.webp",
+          "aceitar": "Quero o Kit 4 em 1",
+          "recusar": "Não, obrigado"
+        },
+        "d2": {
+          "id": "d687627c-2baf-443d-b3c7-fc3508df1e12",
+          "chave": "protecao",
+          "nome": "Kit proteção: óculos, luvas e abafador",
+          "titulo": "Leve o Kit proteção por R$ 19,90",
+          "texto": "Para trabalhar sem risco nos olhos, mãos e ouvidos.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/protecao-b332cbb03d.jpg",
+          "aceitar": "Quero o kit proteção",
+          "recusar": "Não, obrigado"
+        }
+      }
+    }
+  },
+  "roleta": {
+    "tshop-escada-3m": {
+      "etiqueta": "SÓ PARA QUEM ACABOU DE COMPRAR",
+      "titulo": "Gire a roleta e descubra seu prêmio",
+      "subtitulo": "Cada fatia esconde uma ferramenta com desconto. Gire para revelar a sua.",
+      "cair": "lavadora",
+      "fatias": [
+        "lavadora",
+        "pistola",
+        "solda",
+        "kit",
+        "lavadora",
+        "pistola",
+        "solda",
+        "kit"
+      ],
+      "segmento": "ferramentas",
+      "leva": 3,
+      "metaTicket_cents": 50000,
+      "ordem_fonte": "05/10: ordem de afinidade por produto; a ordem viva vem do checkout (posição) e o analista reordena pelos dados.",
+      "ordem": [
+        "kit",
+        "lavadora",
+        "solda",
+        "pistola",
+        "parafusadeira",
+        "esmerilhadeira",
+        "extensao",
+        "filtro",
+        "avental-luva",
+        "protecao-pintura",
+        "bateria-pistola",
+        "segunda-pistola",
+        "bicos",
+        "copo",
+        "arame",
+        "eletrodos",
+        "escova-picadeira",
+        "rolos-arame",
+        "lavadora-portatil",
+        "churrasqueira",
+        "escorredor",
+        "macaco",
+        "motosserra",
+        "pistola-deko"
+      ],
+      "maisTitulo": "Mais ofertas para quem comprou a Escada",
+      "maisSubtitulo": "Escolhidas pelo que você comprou. Marque as que quiser e pague tudo num Pix só. Vai no mesmo endereço.",
+      "itens": {
+        "kit": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-kit4em1",
+          "nome": "Kit Ferramentas 4 em 1 Soarfly 48Vf",
+          "curto": "Kit 4 em 1 48Vf",
+          "texto": "Kit com martelete, furadeira e parafusadeira, chave de impacto e esmerilhadeira, 2 baterias, carregador e maleta.",
+          "textoCurto": "Martelete, furadeira, chave de impacto e esmerilhadeira, 2 baterias e maleta.",
+          "preco_cents": 7990,
+          "de_cents": 32633,
+          "imagem": "/assets/img/galeria-1.webp",
+          "aceitar": "Quero o kit"
+        },
+        "lavadora": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-lavadora",
+          "nome": "Lavadora de Alta Pressão SOARFLY 4800W",
+          "curto": "Lavadora 4800W",
+          "texto": "Lavadora SOARFLY 4800W, 245 bar e alcance de até 15 metros. Ideal para lavar carros, motos e áreas externas.",
+          "textoCurto": "245 bar, alcance de até 15 m. Carros, motos e áreas externas.",
+          "preco_cents": 19990,
+          "de_cents": 66590,
+          "imagem": "/assets/img/complementos/lavadora-b2050904cd.jpg",
+          "aceitar": "Quero a lavadora"
+        },
+        "solda": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-solda-110",
+          "nome": "Máquina de Solda MIG Sem Gás 130A 3 em 1 com Kit Completo",
+          "curto": "Máquina de Solda 130A",
+          "textoCurto": "Vem com máscara, luva, arame 1 kg, garra, porta-eletrodo, tocha e cabo.",
+          "preco_cents": 10990,
+          "de_cents": 24990,
+          "imagem": "/assets/img/produtos/solda/galeria-1.webp",
+          "aceitar": "Quero a solda",
+          "variantes": [
+            {
+              "rotulo": "110V",
+              "p4k": "roleta-solda-110"
+            },
+            {
+              "rotulo": "220V",
+              "p4k": "roleta-solda-220"
+            }
+          ]
+        },
+        "pistola": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-pistola",
+          "nome": "Pistola de Pintura Soarfly 48V 800 ml Sem Fio",
+          "curto": "Pistola de Pintura 48V",
+          "texto": "Pistola de pintura sem fio 48V com copo de 800 ml. Vem com 1 bateria, carregador bivolt, funil e agulha.",
+          "textoCurto": "Sem fio, copo de 800 ml. Vem com bateria, carregador, funil e agulha.",
+          "preco_cents": 9790,
+          "de_cents": 49799,
+          "imagem": "/assets/img/produtos/pistola/galeria-1.webp",
+          "aceitar": "Quero a pistola"
+        },
+        "parafusadeira": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-parafusadeira",
+          "nome": "Parafusadeira Furadeira de Impacto 21V The Black Tools + 136 peças",
+          "curto": "Parafusadeira 21V",
+          "textoCurto": "Parafusadeira e furadeira de impacto 21V com 136 peças.",
+          "preco_cents": 6990,
+          "de_cents": 39000,
+          "imagem": "/assets/img/complementos/parafusadeira-f43533f941.jpg"
+        },
+        "esmerilhadeira": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-esmerilhadeira",
+          "nome": "Esmerilhadeira 780W + 40 soquetes The Black Tools",
+          "curto": "Esmerilhadeira 780W",
+          "textoCurto": "Esmerilhadeira de 780W com 40 soquetes.",
+          "preco_cents": 7990,
+          "de_cents": 26500,
+          "imagem": "/assets/img/complementos/esmerilhadeira-b88de30408.jpg"
+        },
+        "extensao": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-extensao",
+          "nome": "Extensão elétrica de 5 m",
+          "curto": "Extensão 5 m",
+          "textoCurto": "Extensão elétrica de 5 metros.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/extensao-eletrica-e76be31a8f.jpg"
+        },
+        "filtro": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-filtro",
+          "nome": "Filtro de linha de 4 tomadas",
+          "curto": "Filtro de linha",
+          "textoCurto": "Filtro de linha com 4 tomadas.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/filtro-linha-0e9ce97ae0.jpg"
+        },
+        "avental-luva": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-avental-luva",
+          "nome": "Avental + luva de raspa",
+          "curto": "Avental + luva",
+          "textoCurto": "Avental e luva de raspa.",
+          "preco_cents": 2490,
+          "de_cents": 8290,
+          "imagem": "/assets/img/complementos/avental-luva-f4d84ae76f.jpg"
+        },
+        "protecao-pintura": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-protecao-pintura",
+          "nome": "Kit proteção: máscara, óculos e luvas",
+          "curto": "Kit proteção pintura",
+          "textoCurto": "Máscara, óculos e luvas.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/protecao-pintura-5fb6b04617.jpg"
+        },
+        "bateria-pistola": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-bateria-pistola",
+          "nome": "Bateria extra 48V para a pistola",
+          "curto": "Bateria da pistola",
+          "textoCurto": "Troca a bateria e continua pintando.",
+          "preco_cents": 3490,
+          "de_cents": 11590,
+          "imagem": "/assets/img/complementos/bateria-pistola-8459f4d4ca.jpg",
+          "depoisDe": [
+            "pistola"
+          ]
+        },
+        "segunda-pistola": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-segunda-pistola",
+          "nome": "2ª pistola de pintura",
+          "curto": "2ª pistola",
+          "textoCurto": "Uma para cada cor, ou para dois pintando juntos.",
+          "preco_cents": 7990,
+          "de_cents": 49799,
+          "imagem": "/assets/img/complementos/segunda-pistola-7cd1db8ba8.jpg",
+          "depoisDe": [
+            "pistola"
+          ]
+        },
+        "bicos": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-bicos",
+          "nome": "3 bicos extras",
+          "curto": "3 bicos extras",
+          "textoCurto": "3 bicos extras para a pistola.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/bicos-b83d10f547.jpg",
+          "depoisDe": [
+            "pistola"
+          ]
+        },
+        "copo": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-copo",
+          "nome": "Copo reservatório extra de 800 ml",
+          "curto": "Copo extra 800 ml",
+          "textoCurto": "Copo extra de 800 ml para a pistola.",
+          "preco_cents": 1990,
+          "de_cents": 6590,
+          "imagem": "/assets/img/complementos/copo-e5cc36ce38.jpg",
+          "depoisDe": [
+            "pistola"
+          ]
+        },
+        "arame": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-arame",
+          "nome": "Arame tubular extra 0,8 mm de 1 kg",
+          "curto": "Arame 1 kg",
+          "textoCurto": "Arame tubular 0,8 mm, 1 kg.",
+          "preco_cents": 2990,
+          "de_cents": 9990,
+          "imagem": "/assets/img/complementos/arame-e3736bf3fb.jpg",
+          "depoisDe": [
+            "solda"
+          ]
+        },
+        "eletrodos": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-eletrodos",
+          "nome": "Eletrodos de 2,5 mm de 1 kg",
+          "curto": "Eletrodos 1 kg",
+          "textoCurto": "Eletrodos de 2,5 mm, 1 kg.",
+          "preco_cents": 2490,
+          "de_cents": 8290,
+          "imagem": "/assets/img/complementos/eletrodos-5a71d08697.jpg",
+          "depoisDe": [
+            "solda"
+          ]
+        },
+        "escova-picadeira": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-escova-picadeira",
+          "nome": "Escova de aço + picadeira",
+          "curto": "Escova + picadeira",
+          "textoCurto": "Para limpar a solda.",
+          "preco_cents": 1490,
+          "de_cents": 4990,
+          "imagem": "/assets/img/complementos/escova-picadeira-b18293ab90.jpg",
+          "depoisDe": [
+            "solda"
+          ]
+        },
+        "rolos-arame": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-rolos-arame",
+          "nome": "2 rolos de arame tubular de 1 kg",
+          "curto": "2 rolos de arame",
+          "textoCurto": "2 rolos de 1 kg.",
+          "preco_cents": 4490,
+          "de_cents": 19980,
+          "imagem": "/assets/img/complementos/rolos-arame-9404c7bc23.jpg",
+          "depoisDe": [
+            "solda"
+          ]
+        },
+        "lavadora-portatil": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-lavadora-portatil",
+          "nome": "Lavadora Lava Jato Portátil Sem Fio MYMOTORS — 2 Baterias + Maleta",
+          "curto": "Lavadora portátil sem fio",
+          "texto": "Lavadora lava jato portátil sem fio MYMOTORS: 3 tipos de jato, mangueira de 5 m, 2 baterias, carregador bivolt e maleta.",
+          "textoCurto": "Sem fio, 3 tipos de jato, mangueira de 5 m, 2 baterias e maleta.",
+          "preco_cents": 12790,
+          "de_cents": 58990,
+          "imagem": "/assets/img/produtos/lavadora/galeria-1.webp",
+          "aceitar": "Quero a lavadora portátil"
+        },
+        "churrasqueira": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-churrasqueira-127v",
+          "nome": "Churrasqueira Elétrica 2 em 1 1500W + Kit Churrasco",
+          "curto": "Churrasqueira elétrica 2 em 1",
+          "texto": "Churrasqueira elétrica 2 em 1 (chapa antiaderente e grelha removível), 1500W, 5 níveis de temperatura, com kit churrasco.",
+          "textoCurto": "Chapa antiaderente e grelha removível, 1500W, com kit churrasco.",
+          "preco_cents": 10990,
+          "de_cents": 67990,
+          "imagem": "/assets/img/produtos/churrasqueira/galeria-1.webp",
+          "aceitar": "Quero a churrasqueira",
+          "variantes": [
+            {
+              "rotulo": "127V · Vermelha",
+              "p4k": "roleta-churrasqueira-127v"
+            },
+            {
+              "rotulo": "220V · Vermelha",
+              "p4k": "roleta-churrasqueira-220v"
+            },
+            {
+              "rotulo": "127V · Preta",
+              "p4k": "roleta-churrasqueira-preta-127v"
+            },
+            {
+              "rotulo": "220V · Preta",
+              "p4k": "roleta-churrasqueira-preta-220v"
+            }
+          ]
+        },
+        "escorredor": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-escorredor-65",
+          "nome": "Escorredor de Louça Suspenso Aço Inoxidável 2 Níveis — 65 cm",
+          "curto": "Escorredor suspenso 65 cm",
+          "texto": "Escorredor de louça suspenso em aço inoxidável com 2 níveis, portas translúcidas, porta-facas, cesto organizador e 6 ganchos. Tamanho 65 cm.",
+          "textoCurto": "Inox, 2 níveis, portas translúcidas, porta-facas e 6 ganchos.",
+          "preco_cents": 8990,
+          "de_cents": 29990,
+          "imagem": "/assets/img/produtos/escorredor/galeria-1.webp",
+          "aceitar": "Quero o escorredor"
+        },
+        "macaco": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-macaco-2t",
+          "nome": "Macaco Hidráulico Jacaré Sparta 2 toneladas com Maleta + Compressor de Ar Grátis",
+          "curto": "Macaco jacaré 2 t",
+          "texto": "Macaco hidráulico jacaré Sparta de 2 toneladas (indicado para carros) com maleta. Vem com compressor de ar portátil grátis.",
+          "textoCurto": "2 toneladas, com maleta. Vem com compressor de ar portátil grátis.",
+          "preco_cents": 8990,
+          "de_cents": 54899,
+          "imagem": "/assets/img/produtos/macaco/galeria-1.webp",
+          "aceitar": "Quero o macaco"
+        },
+        "motosserra": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-motosserra-52cc",
+          "nome": "Motosserra a Gasolina DEWEN DW404 52cc Barra 20 Polegadas",
+          "curto": "Motosserra 52cc",
+          "texto": "Motosserra a gasolina DEWEN DW404 52cc, motor 2 tempos 3.0 HP, barra de 20 polegadas, com kit de ferramentas para manutenção.",
+          "textoCurto": "52cc, 3.0 HP, barra de 20 polegadas, com kit de manutenção.",
+          "preco_cents": 13790,
+          "de_cents": 69900,
+          "imagem": "/assets/img/produtos/motosserra/galeria-1.webp",
+          "aceitar": "Quero a motosserra"
+        },
+        "pistola-deko": {
+          "segmento": "ferramentas",
+          "p4k": "roleta-pistola-deko-110v",
+          "nome": "Pistola de Pintura Pulverizadora HVLP Elétrica 550W Deko",
+          "curto": "Pistola de pintura HVLP 550W",
+          "texto": "Pistola de pintura elétrica HVLP 550W Deko com tanque de 800 ml, 3 bicos e 3 padrões de jato, sem compressor.",
+          "textoCurto": "Elétrica, tanque de 800 ml, 3 bicos e 3 padrões de jato, sem compressor.",
+          "preco_cents": 8990,
+          "de_cents": 19990,
+          "imagem": "/assets/img/produtos/pistola-deko/galeria-1.webp",
+          "aceitar": "Quero a pistola HVLP",
+          "variantes": [
+            {
+              "rotulo": "110V",
+              "p4k": "roleta-pistola-deko-110v"
+            },
+            {
+              "rotulo": "220V",
+              "p4k": "roleta-pistola-deko-220v"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rastreio": {
+    "metaPixelId": "2496855580800877",
+    "gaId": "",
+    "googleAdsId": "AW-18369448617",
+    "googleAdsPurchaseLabel": "s0bDCI68gvkcEKmVnrdE"
+  },
+  "checkout": {
+    "apiBase": "/api",
+    "slugsPorQuantidade": {
+      "1": "tshop-escada-3m"
+    },
+    "expiraPixMinutos": 30,
+    "intervaloConsultaMs": 4000
+  }
+};
